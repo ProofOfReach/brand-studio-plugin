@@ -10,8 +10,13 @@
 
 ### Quick Install
 
+```
+/plugin install brand-studio@claude-plugin-directory
+```
+
+Or via [claude-plugins.dev](https://claude-plugins.dev):
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ProofOfReach/brand-studio-plugin/main/install.sh | bash
+npx claude-plugins install ProofOfReach/brand-studio-plugin
 ```
 
 </div>
@@ -80,18 +85,21 @@ curl -fsSL https://raw.githubusercontent.com/ProofOfReach/brand-studio-plugin/ma
 
 ## Installation
 
-### Quick Install (Recommended)
+### From Official Directory (Recommended)
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/ProofOfReach/brand-studio-plugin/main/install.sh | bash
+```
+/plugin install brand-studio@claude-plugin-directory
 ```
 
-This clones the plugin and configures your `settings.json` automatically.
+### From Community Registry
+
+```bash
+npx claude-plugins install ProofOfReach/brand-studio-plugin
+```
 
 ### Manual Installation
 
 ```bash
-# Clone the repo
 git clone https://github.com/ProofOfReach/brand-studio-plugin.git ~/.claude/plugins/brand-studio
 ```
 
