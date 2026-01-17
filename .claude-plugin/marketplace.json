@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "brand-studio-local",
+  "description": "Local brand studio plugin",
+  "owner": {
+    "name": "ProofOfReach",
+    "email": "support@proofofreach.com"
+  },
+  "plugins": [
+    {
+      "name": "brand-studio",
+      "description": "Complete brand identity toolkit: copywriting, visual design, and integrated brand kits",
+      "version": "0.1.0",
+      "author": {
+        "name": "ProofOfReach"
+      },
+      "source": ".",
+      "category": "marketing"
+    }
+  ]
+}

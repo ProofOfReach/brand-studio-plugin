@@ -1,35 +1,8 @@
 {
   "name": "brand-studio",
-  "version": "0.1.0",
   "description": "Complete brand identity toolkit: copywriting, visual design, and integrated brand kits",
   "author": {
     "name": "ProofOfReach",
-    "url": "https://github.com/ProofOfReach"
-  },
-  "repository": "https://github.com/ProofOfReach/brand-studio-plugin",
-  "license": "MIT",
-  "keywords": [
-    "copywriting",
-    "branding",
-    "design",
-    "marketing",
-    "landing-pages",
-    "brand-guidelines"
-  ],
-  "skills": [
-    "copy",
-    "design",
-    "brand-kit"
-  ],
-  "commands": [
-    "/copy",
-    "/headline",
-    "/review-copy",
-    "/design",
-    "/palette",
-    "/typography",
-    "/brand-kit",
-    "/brand-audit",
-    "/brand-apply"
-  ]
+    "email": "support@proofofreach.com"
+  }
 }

@@ -1,7 +1,6 @@
 ---
-name: copywriting
+name: copy
 description: This skill should be used when the user asks to "write copy", "review copy", "headline ideas", "sales page", "landing page", "email copy", "ad copy", "value proposition", "CTA", "persuasive writing", "direct response", "sales letter", "offer creation", "conversion optimization", or discusses marketing copy.
-version: 1.0.0
 ---
 
 # Copywriting Skill

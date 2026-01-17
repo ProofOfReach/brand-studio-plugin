@@ -1,7 +1,6 @@
 ---
 name: design
 description: This skill should be used when the user asks to "design a logo", "create brand identity", "develop color palette", "choose typography", "visual identity", "brand guidelines", "generate logo concepts", "brand design", "visual branding", "icon design", "brand assets", or discusses visual design for brands.
-version: 1.0.0
 ---
 
 # Design Skill
