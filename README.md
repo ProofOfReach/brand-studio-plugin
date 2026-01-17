@@ -11,7 +11,7 @@
 ### Quick Install
 
 ```bash
-claude plugin add proofofreach/brand-studio
+curl -fsSL https://raw.githubusercontent.com/ProofOfReach/brand-studio-plugin/main/install.sh | bash
 ```
 
 </div>
@@ -80,7 +80,15 @@ claude plugin add proofofreach/brand-studio
 
 ## Installation
 
-### Option 1: Clone and Configure (Recommended)
+### Quick Install (Recommended)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ProofOfReach/brand-studio-plugin/main/install.sh | bash
+```
+
+This clones the plugin and configures your `settings.json` automatically.
+
+### Manual Installation
 
 ```bash
 # Clone the repo
@@ -95,7 +103,7 @@ Then add to your `~/.claude/settings.json`:
 }
 ```
 
-### Option 2: Per-Session Loading
+### Per-Session Loading
 
 ```bash
 claude --plugin-dir ~/.claude/plugins/brand-studio
