@@ -80,16 +80,25 @@ claude plugin add proofofreach/brand-studio
 
 ## Installation
 
-### Claude Code Plugin Manager
+### Option 1: Clone and Configure (Recommended)
 
 ```bash
-claude plugin add proofofreach/brand-studio
+# Clone the repo
+git clone https://github.com/ProofOfReach/brand-studio-plugin.git ~/.claude/plugins/brand-studio
 ```
 
-### Manual Installation
+Then add to your `~/.claude/settings.json`:
+
+```json
+{
+  "pluginDirs": ["~/.claude/plugins/brand-studio"]
+}
+```
+
+### Option 2: Per-Session Loading
 
 ```bash
-git clone https://github.com/ProofOfReach/copywriting-plugin.git ~/.claude/plugins/brand-studio
+claude --plugin-dir ~/.claude/plugins/brand-studio
 ```
 
 ---
