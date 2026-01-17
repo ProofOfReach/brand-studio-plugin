@@ -1,5 +1,5 @@
 ---
-name: brand-kit
+name: brand-building
 description: This skill should be used when the user asks to "create brand guidelines", "build brand identity", "brand kit", "brand book", "full branding", "complete brand system", or needs cohesive brand strategy combining visual design and copywriting.
 ---
 
