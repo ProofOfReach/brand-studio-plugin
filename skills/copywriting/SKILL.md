@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: This skill should be used when the user asks to "write copy", "review copy", "headline ideas", "sales page", "landing page", "email copy", "ad copy", "value proposition", "CTA", "persuasive writing", "direct response", "sales letter", "offer creation", "conversion optimization", or discusses marketing copy. Also use when the user mentions "psychology", "mental models", "cognitive bias", "persuasion", "behavioral science", "why people buy", "decision-making", "consumer behavior", or wants to apply psychological principles to marketing.
+description: This skill should be used when the user asks to "write copy", "review copy", "edit copy", "headline ideas", "sales page", "landing page", "email copy", "ad copy", "value proposition", "CTA", "persuasive writing", "direct response", "sales letter", "offer creation", "conversion optimization", "copy sweep", "polish this", "make this better", or discusses marketing copy. Also use when the user mentions "psychology", "mental models", "cognitive bias", "persuasion", "behavioral science", "why people buy", "decision-making", "consumer behavior", or wants to apply psychological principles to marketing.
 ---
 
 # Copywriting Skill
@@ -13,7 +13,7 @@ This skill operates in two distinct modes: **Write Mode** for creating new copy 
 
 **Write Mode** activates when the user requests new copy creation. This includes requests for headlines, sales pages, email sequences, ad copy, landing pages, or any persuasive content. The workflow follows a structured five-stage process that prioritizes research before writing.
 
-**Review Mode** activates when the user provides existing copy for critique, optimization, or improvement. This mode applies diagnostic frameworks to identify weaknesses and provides actionable recommendations grounded in proven copywriting principles.
+**Review Mode** activates when the user provides existing copy for critique, optimization, or improvement. This mode applies the **Seven Sweeps Framework**—a systematic, pass-by-pass editing methodology that catches issues missed when trying to fix everything at once.
 
 ### Adaptive Workflow
 
@@ -25,7 +25,7 @@ The skill adjusts depth and approach based on:
 
 ---
 
-## 2. The Copywriting Process
+## 2. The Copywriting Process (Write Mode)
 
 Follow these five stages sequentially. Rushing to write before completing research is the primary cause of weak copy.
 
@@ -159,7 +159,158 @@ These foundational principles inform all copywriting decisions:
 
 ---
 
-## 4. Mode Instructions
+## 4. The Seven Sweeps Framework (Review Mode)
+
+When reviewing existing copy, apply these seven sequential editing passes. Each sweep focuses on one dimension, then loops back to verify previous improvements remain intact. This systematic approach catches issues missed when trying to fix everything at once.
+
+### Sweep 1: Clarity
+
+**The Question:** Can the reader understand what you're saying?
+
+- Check for overloaded sentences (multiple ideas, 3+ conjunctions, 25+ words)
+- Identify pronoun ambiguity ("it," "they," "this" without clear reference)
+- Flag jargon and unexplained acronyms
+- Find buried leads (main point at end of paragraph)
+- Apply the Grandmother Rule: if she wouldn't understand it, simplify
+
+**Clarity Rules:**
+- Rule of One: One main idea per section
+- You Rule: Copy speaks to "you," not about "customers"
+- Specificity Rule: Concrete beats abstract every time
+
+### Sweep 2: Voice & Tone
+
+**The Question:** Is the copy consistent in how it sounds?
+
+- Check for formal ↔ casual shifts within the same piece
+- Verify consistent first/second/third person throughout
+- Ensure humor (or lack thereof) is maintained
+- Confirm brand personality is recognizable in every section
+
+**The Read-Aloud Test:** Read the copy out loud. Mark every place where you stumble, the rhythm feels off, or the "speaker" seems to change personality.
+
+### Sweep 3: So What
+
+**The Question:** Does every claim answer "why should I care?"
+
+After every statement, literally ask "So what?" If the copy doesn't answer, keep asking until you hit the real benefit.
+
+```
+CLAIM: "Our platform uses AI-powered analytics"
+SO WHAT? "...so you can spot patterns humans miss"
+SO WHAT? "...which means you catch problems before they cost you money"
+```
+
+**Feature → Benefit Bridges:** Use connectors like "which means," "so you can," "that way, you," "resulting in"
+
+**Benefits Hierarchy:** Move up this ladder with each "so what?":
+1. Feature → What it does
+2. Advantage → Why that matters
+3. Benefit → What changes for them
+4. Transformation → Who they become
+
+### Sweep 4: Prove It
+
+**The Question:** Is every claim supported with evidence?
+
+**Proof Types (Strongest → Weakest):**
+1. Third-party validation (awards, certifications, press)
+2. Specific testimonials (name, company, role, specific result)
+3. Case studies (named company, situation, measurable outcome)
+4. Statistics (sourced numbers, specific percentages)
+5. Social proof numbers ("Join 10,000+ teams")
+6. Guarantees (money-back, performance promises)
+7. Demonstrations (screenshots, videos, live demos)
+8. Authority (credentials, experience, expert endorsements)
+
+**Claims That Always Need Proof:**
+- "Best" or "Leading" → Third-party ranking or data
+- ROI/savings claims → Case study or calculation
+- Time savings → Specific examples
+- "Trusted by" → Named logos or numbers
+
+**If you can't prove it, soften it:** "The best" → "A powerful"
+
+### Sweep 5: Specificity
+
+**The Question:** Is the copy concrete enough to be compelling?
+
+| Vague | Specific |
+|-------|----------|
+| "Save time" | "Save 4 hours every week" |
+| "Many customers" | "2,847 teams" |
+| "Fast results" | "Results in 14 days" |
+| "Affordable" | "Starting at $29/month" |
+| "Great support" | "Response within 2 hours" |
+
+**The Concreteness Test:** For each sentence, ask:
+- Could a competitor say this exact thing?
+- Does this paint a picture?
+- Could I photograph or measure this?
+- Is there a number that could go here?
+
+**Numbers That Convince:**
+- Odd numbers feel more researched (37% beats 40%)
+- Precise numbers feel more real ($47 beats "about $50")
+- Comparative numbers show contrast ("3x faster")
+- Time-bounded numbers add urgency ("in 30 days")
+
+### Sweep 6: Heightened Emotion
+
+**The Question:** Does the copy make the reader feel something?
+
+**Emotional Triggers:**
+| Emotion | How to Evoke |
+|---------|--------------|
+| Pain | Describe the frustrating "before" state vividly |
+| Relief | Contrast with the easy "after" state |
+| Fear | Show what happens if they don't act |
+| Pride | Position them as smart for choosing this |
+| Belonging | Show others like them succeeding |
+| Hope | Paint the transformation they want |
+
+**Sensory Language:** Replace abstract with sensory:
+- "More productive" → "Inbox at zero before lunch"
+- "Better results" → "Watch your numbers climb"
+- "Easier workflow" → "No more late nights fixing spreadsheets"
+
+**Micro-Stories:** Tiny narratives that create emotional connection:
+- "Remember the last time you..."
+- "Picture this: It's Monday morning and..."
+- "You know that sinking feeling when..."
+
+### Sweep 7: Zero Risk
+
+**The Question:** Have we removed every barrier to action?
+
+**Risk Audit Near CTAs:** For each CTA, list every possible hesitation:
+- What if it doesn't work?
+- What if I can't figure it out?
+- What if it costs more than expected?
+- What will others think?
+- Is my information safe?
+- What happens after I click?
+
+**Risk Reducers:**
+| Risk | Reducer |
+|------|---------|
+| Financial | Money-back guarantee, free trial |
+| Time | "Setup in 5 minutes" |
+| Complexity | "No technical skills required" |
+| Social | Testimonials from similar people |
+| Privacy | "We never share your data" |
+| Commitment | "Cancel anytime" |
+| Unknown | "Here's exactly what happens next" |
+
+**CTA Clarity Checklist:**
+- [ ] Button text tells them what they get (not what they do)
+- [ ] Expectations are set for what happens next
+- [ ] Form fields are minimized
+- [ ] Trust signals within visual proximity
+
+---
+
+## 5. Mode Instructions
 
 ### Write Mode Workflow
 
@@ -170,18 +321,28 @@ These foundational principles inform all copywriting decisions:
 5. **Present output with rationale**: Explain strategic choices, especially for headlines
 6. **Offer variations**: Provide alternatives for testing when appropriate
 
-### Review Mode Workflow
+### Review Mode Workflow (Seven Sweeps)
 
 1. **Read the copy completely**: Understand the full context before critiquing
 2. **Identify the intended audience and goal**: Clarify what success looks like
-3. **Assess against core principles**: Check alignment with Hopkins, Cialdini, Schwartz, Heath
-4. **Diagnose specific weaknesses**: Be precise about what is not working and why
-5. **Provide actionable fixes**: Do not just identify problems; suggest specific solutions
+3. **Run the Seven Sweeps sequentially**: Clarity → Voice → So What → Prove It → Specificity → Emotion → Zero Risk
+4. **Loop back after each sweep**: Verify previous fixes remain intact
+5. **Present findings with specific fixes**: Don't just identify problems; suggest solutions
 6. **Prioritize recommendations**: Indicate which changes will have the greatest impact
+
+**When to Use Full Seven Sweeps:**
+- Landing pages, sales pages, email sequences
+- Major marketing campaigns, homepage copy
+- Any high-stakes conversion copy
+
+**When to Use Quick Pass:**
+- Blog posts, social media copy
+- Internal communications, minor updates
+- First drafts (before full sweep)
 
 ---
 
-## 5. Citation Style
+## 6. Citation Style
 
 Reference source authors naturally within the copy guidance. Integrate their wisdom as established principles rather than academic citations.
 
@@ -195,7 +356,7 @@ Avoid footnote-style citations or parenthetical references. The goal is to invok
 
 ---
 
-## 6. Reference Loading
+## 7. Reference Loading
 
 Load specific reference files based on the task at hand. This ensures relevant frameworks are immediately accessible without overwhelming context.
 
@@ -225,9 +386,9 @@ Load specific reference files based on the task at hand. This ensures relevant f
 - Load: `value-propositions.md`
 - Contains: Positioning frameworks, differentiation strategies, unique mechanism articulation
 
-**General Review Tasks**
-- Load: `review-checklist.md`
-- Contains: Diagnostic questions, common weaknesses, improvement prioritization framework
+**General Review / Copy Editing**
+- Load: `copy-editing.md`
+- Contains: Seven Sweeps deep-dive, word/sentence/paragraph fixes, complete editing checklist, common problems and solutions
 
 **Offer Creation / Pricing**
 - Load: `offers-pricing.md`
@@ -253,6 +414,45 @@ When a task is identified:
 ### Specialized Commands
 
 For landing page optimization work, the `/copy-lpo` command provides a focused workflow with pre-loaded landing page frameworks and testing methodology.
+
+---
+
+## 8. Quick-Pass Editing Reference
+
+For rapid copy improvements when full Seven Sweeps isn't needed:
+
+### Word-Level Fixes
+
+**Always cut:** very, really, extremely, incredibly, just, actually, basically, literally, "in order to" (→ "to"), "the fact that"
+
+**Always replace:**
+| Corporate | Human |
+|-----------|-------|
+| Utilize | Use |
+| Leverage | Use |
+| Implement | Set up |
+| Facilitate | Help |
+| Optimize | Improve |
+| Innovative | New |
+| Robust | Strong |
+| Seamless | Smooth |
+| End-to-end | Complete |
+| Best-in-class | Leading |
+
+### Sentence-Level Fixes
+
+- One idea per sentence
+- Front-load the important information
+- Vary length: Mix short punchy with longer explanatory
+- Max 25 words in most sentences
+- Watch for passive voice ("Reports are generated" → "We generate reports")
+
+### Paragraph-Level Fixes
+
+- One topic per paragraph
+- 2-4 sentences for web copy
+- Strong openers: Lead each paragraph with its point
+- White space: Break up walls of text
 
 ---
 
